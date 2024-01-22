@@ -1,6 +1,5 @@
-
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -10,4 +9,74 @@ body {
     /* background-color: #1e1c36; */
     background-color: #1d1c28;
     color: #f8f7f9;
+    margin: 0;
 }
+
+.mainCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    font-size: 2em;
+    background-color: #17161f;
+    width: 100%;
+    text-align: center;
+}
+
+.calcCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    gap:0.1em;
+}
+
+.display {
+    min-height: 100px;
+    background-color: #f8f7f9;
+    border: 3px solid gray;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap:0.2em;
+}
+
+#firstColumn {
+    display: flex;
+    flex-direction: column;
+    gap:0.1em;
+}
+
+#secondColumn {
+    display: flex;
+    flex-direction: column;
+    gap:0.1em;
+}
+
+.calcButton {
+    min-width: 70px;
+    min-height: 70px;
+    font-size: 1.3em;
+}
+
+.calcButtonOper {
+    min-width: 70px;
+    min-height: 70px;
+    font-size: 1.3em;
+}
+
+#fourthRow {
+    display:flex;
+    gap:0.1em;
+}
+
+#zero {
+    flex: 1;
+    margin-right: 0.1em;
+}
+
