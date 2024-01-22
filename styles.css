@@ -1,0 +1,13 @@
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    /* background-color: #1e1c36; */
+    background-color: #1d1c28;
+    color: #f8f7f9;
+}
