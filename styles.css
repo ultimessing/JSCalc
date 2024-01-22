@@ -12,6 +12,17 @@ body {
     margin: 0;
 }
 
+footer {
+    background-color: #17161f;
+    width:100%;
+    margin-top:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    height:2em;
+}
+
 .mainCont {
     display: flex;
     flex-direction: column;
@@ -34,12 +45,13 @@ body {
 }
 
 #display {
-    min-height: 100px;
+    height: 6em;
     background-color: #f8f7f9;
     border: 3px solid gray;
     box-sizing: border-box;
     word-wrap: break-word;
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
     overflow: hidden;
     max-width: 291.13px;
