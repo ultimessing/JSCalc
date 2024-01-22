@@ -33,11 +33,23 @@ body {
     gap:0.1em;
 }
 
-.display {
+#display {
     min-height: 100px;
     background-color: #f8f7f9;
     border: 3px solid gray;
     box-sizing: border-box;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 291.13px;
+}
+
+#displayedStr {
+    font-size: 2.5em;
+    color: black;
+    text-align: end;
+    margin-right: 0.1em;
 }
 
 .buttons {
